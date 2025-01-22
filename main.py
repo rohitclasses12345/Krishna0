@@ -77,14 +77,14 @@ async def main():
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(
-       "𝐇𝐞𝐥𝐥𝐨 ❤️\n\n◆〓◆ ❖ ▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌ ❖ ™ ◆〓◆\n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /ROHIT Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
+       "𝐇𝐞𝐥𝐥𝐨 ❤️\n\n◆〓◆ https://envs.sh/oct.jpg ❖ ▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌ ❖ ™ ◆〓◆\n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /ROHIT Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/+gnmRbwms4jg0MDg1") ],
+                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/+EU-tiwyLZBMzY2Jl") ],
                     [
-                    InlineKeyboardButton("✜ Pradeep1804🩷 ✜" ,url="https://t.me/Pradeep1804") ],
+                    InlineKeyboardButton("✜ Pradeep1804🩷 ✜" ,url="https://t.me/Strangerboy27_bot_strangerboy") ],
                     [
-                    InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/+XJFAdIa3Vw5iN2M9") ]                               
+                    InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/vhjjjoook") ]                               
             ]))
 
 @bot.on_message(filters.command(["stop"]))
@@ -140,7 +140,7 @@ async def account_login(bot: Client, m: Message):
     else:
         b_name = raw_text0
      
-    await editable.edit("∝ 𝐄𝐧𝐭𝐞𝐫 𝐄𝐞𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧 🎬\n☞Pardeep💝Gauri💔Rohit😗144,240,360,480,720,1080\nPlease Choose Quality")
+    await editable.edit("∝ 𝐄𝐧𝐭𝐞𝐫 𝐄𝐞𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧 ▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌ 🎬\n☞144,240,360,480,720,1080\nPlease Choose Quality")
     input2: Message = await bot.listen(editable.chat.id) 
     raw_text2 = input2.text
     await input2.delete(True)
@@ -164,7 +164,7 @@ async def account_login(bot: Client, m: Message):
     
     
 
-    await editable.edit("**stranger💔Enter Your Name or send `de` for use default**")
+    await editable.edit("**💞🐼  𝕊ᵗŘａ𝓃gＥ𝓡 βᵒ𝓨 Ｓ𝕥ᵃ𝕣ţเภﻮ 𝓨Ｏ𝕌𝓡 𝒷𝐨𝐓  💘ඏ Enter Your Name or send `de` for use default**")
 
     # Listen for the user's response
     input3: Message = await bot.listen(editable.chat.id)
@@ -184,7 +184,7 @@ async def account_login(bot: Client, m: Message):
     else:
         CR = credit
      
-    await editable.edit("🌄Crush😎 Now send the Thumb url if don't want thumbnail send no https://envs.sh/JLq.jpg")
+    await editable.edit("▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌  Now send the Thumb url if don't want thumbnail send no https://envs.sh/JLq.jpg")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -274,8 +274,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎥 VIDEO ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res} Pardeep💝Gauri💔Rohit.mkv\n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
-                cc1 = f'**📁 FILE ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} Pardeep💝Gauri💔Rohit.pdf \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc = f'**🎥 VIDEO ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res} ▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌.mkv\n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc1 = f'**📁 FILE ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} ▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌.pdf \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
                     
                 
                 if "drive" in url:
@@ -347,7 +347,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🔰Stranger🤣😅😂Complete ho gaya Pardeep💝Gauri💔Rohit Kar le sell ab🔰")
+    await m.reply_text("♐️▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌ Complete ho gya Kar le sell ab🛐")
 
 
 
