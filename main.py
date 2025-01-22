@@ -82,7 +82,7 @@ async def account_login(bot: Client, m: Message):
                 [
                     InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/+EU-tiwyLZBMzY2Jl") ],
                     [
-                    InlineKeyboardButton("✜ Pradeep1804🩷 ✜" ,url="https://t.me/Strangerboy27_bot_strangerboy") ],
+                    InlineKeyboardButton("✜ THE BOYS https://envs.sh/vbp.jpg ✜" ,url="https://t.me/Strangerboy27_bot_strangerboy") ],
                     [
                     InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/vhjjjoook") ]                               
             ]))
